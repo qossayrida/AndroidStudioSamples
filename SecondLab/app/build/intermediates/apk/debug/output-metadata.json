@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.myapplication",
+  "applicationId": "com.example.secondlab",
   "variantName": "debug",
   "elements": [
     {
@@ -17,5 +17,5 @@
     }
   ],
   "elementType": "File",
-  "minSdkVersionForDexing": 25
+  "minSdkVersionForDexing": 26
 }

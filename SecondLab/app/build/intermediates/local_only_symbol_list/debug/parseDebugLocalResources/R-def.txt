@@ -8,15 +8,13 @@ id button_Add_Customer
 id editText_Id
 id editText_Name
 id editText_Phone
-id main
-id spinner_City
 id spinner_Gender
 layout activity_add_customer
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-style Base.Theme.MyApplication
-style Theme.MyApplication
+style Base.Theme.SecondLab
+style Theme.SecondLab
 xml backup_rules
 xml data_extraction_rules

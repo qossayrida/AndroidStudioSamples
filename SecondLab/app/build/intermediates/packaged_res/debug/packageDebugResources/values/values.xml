@@ -2,10 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">My Application</string>
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+    <string name="app_name">Second Lab</string>
+    <style name="Base.Theme.SecondLab" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style>
-    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+    <style name="Theme.SecondLab" parent="Base.Theme.SecondLab"/>
 </resources>

@@ -1,4 +1,4 @@
-com.example.myapplication
+com.example.secondlab
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3342,7 +3342,6 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -3508,7 +3507,6 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinner_City
 id spinner_Gender
 id spline
 id split_action_bar
@@ -4088,7 +4086,7 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
-style Base_Theme_MyApplication
+style Base_Theme_SecondLab
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -4597,7 +4595,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_MyApplication
+style Theme_SecondLab
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

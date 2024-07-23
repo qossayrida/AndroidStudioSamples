@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\transforms-4\f1753f668e20fc71efa1fdbd537fef03\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-4\240feb6a4c564727fdb75a5be0ccfc97\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\user\.gradle\caches\transforms-4\638669c6e55e43e5758fcc305ae0865a\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\user\.g
 	xmlns:android
 		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:5:5-28:19
-INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\transforms-4\f1753f668e20fc71efa1fdbd537fef03\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\transforms-4\f1753f668e20fc71efa1fdbd537fef03\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-4\240feb6a4c564727fdb75a5be0ccfc97\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -93,16 +93,16 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\us
 	android:allowBackup
 		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:13:9-51
+		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:13:9-47
 	android:dataExtractionRules
 		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.myapplication.AddCustomerActivity
+activity#com.example.secondlab.AddCustomerActivity
 ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
 		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:16:13-48
-activity#com.example.myapplication.MainActivity
+activity#com.example.secondlab.MainActivity
 ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:exported
 		ADDED from D:\Android Studio\AndroidStudioSamples\SecondLab\app\src\main\AndroidManifest.xml:20:13-36
@@ -242,7 +242,7 @@ ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.secondlab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
@@ -252,7 +252,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.secondlab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
