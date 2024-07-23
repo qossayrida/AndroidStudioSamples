@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Dial"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Gmail"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button_maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Maps"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Notification"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</LinearLayout>
