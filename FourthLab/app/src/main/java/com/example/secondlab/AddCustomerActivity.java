@@ -1,6 +1,5 @@
 package com.example.secondlab;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -42,12 +42,19 @@ public class AddCustomerActivity extends AppCompatActivity {
 
                 newCustomer.setmGender(genderSpinner.getSelectedItem().toString());
 
-                Customer.customersArrayList.add(newCustomer);
-                Intent intent = new Intent(AddCustomerActivity.this, MainActivity.class);
-                AddCustomerActivity.this.startActivity(intent);
-                finish();
+                DataBaseHelper dataBaseHelper = new DataBaseHelper(AddCustomerActivity.this, "DB_NAME_EXP4", null, 1);
+
+                if (dataBaseHelper.doesCustomerExist(newCustomer.getmCustomerId())) {
+                    // Handle the case when a customer with the same ID exists
+                    // For example, show a toast message
+                    Toast.makeText(AddCustomerActivity.this, "Customer with ID already exists!", Toast.LENGTH_SHORT).show();
+                } else {
+                    dataBaseHelper.insertCustomer(newCustomer);
+                    // Finish this activity to go back to MainActivity
+                    finish();
+                }
             }
         });
-    }
 
+    }
 }

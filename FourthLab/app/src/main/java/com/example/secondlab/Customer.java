@@ -3,7 +3,6 @@ package com.example.secondlab;
 import java.util.ArrayList;
 
 public class Customer {
-    public static ArrayList<Customer> customersArrayList = new ArrayList<>();
     private long mCustomerId;
     private String mName;
     private String mPhone;
@@ -18,6 +17,8 @@ public class Customer {
         this.mPhone = mPhone;
         this.mGender = mGender;
     }
+
+
 
     public long getmCustomerId() {
         return mCustomerId;
