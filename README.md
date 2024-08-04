@@ -44,8 +44,6 @@ In this experiment, you will be introduced to Spring Boot, a framework for build
 
 This experiment builds on the previous one, diving deeper into Spring Boot. You will learn about more advanced features and configurations, enabling you to create robust and scalable web applications.
 
----
-
 ## Project
 
 The project for this lab is the [Flight Reservation App](https://github.com/qossayrida/FlightReservationApp), which demonstrates practical applications of Android programming.
