@@ -2,6 +2,7 @@
 
 This laboratory manual is designed for the ENCS515 Advanced Computer Systems Engineering course at Birzeit University. It includes a series of experiments aimed at providing hands-on experience in various aspects of Android programming and Spring Boot.
 
+---
 
 ### EXP. No. 1. Introduction to Android Programming
 
@@ -42,6 +43,13 @@ In this experiment, you will be introduced to Spring Boot, a framework for build
 ### EXP. No. 10. Spring Boot Part 2
 
 This experiment builds on the previous one, diving deeper into Spring Boot. You will learn about more advanced features and configurations, enabling you to create robust and scalable web applications.
+
+---
+
+## Project
+
+The project for this lab is the [Flight Reservation App](https://github.com/qossayrida/FlightReservationApp), which demonstrates practical applications of Android programming.
+
 
 
 ## 🔗 Links
