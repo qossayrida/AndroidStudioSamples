@@ -1,0 +1,20 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="-210"
+        android:duration="1500"
+        android:repeatMode="restart"
+        android:repeatCount="infinite"
+        android:startOffset="4500"/>
+
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="-90%"
+        android:fromYDelta="0%"
+        android:toYDelta="80%"
+        android:duration="1500"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"
+        android:startOffset="4500"/>
+</set>

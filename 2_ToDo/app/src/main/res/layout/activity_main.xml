@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hashtag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qossay Rida"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp" />
+
+    <ImageView
+        android:id="@+id/channelLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/dolphin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/sea"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="70dp"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/sea"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY" />
+
+
+    <ImageView
+        android:id="@+id/airplane"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/redGround"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/newsTicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="Qossay Rida is the best"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
